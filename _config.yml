@@ -14,7 +14,7 @@ title_separator          : "-"
 name                     : "Ayushi Agarwal"
 description              : "Reseach Engineer at National University of Singapore"
 url                      : "https://agarwal-ayushi.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  :  # the subpath of your site, e.g. "/blog"
+baseurl                  :  "/Blog" # the subpath of your site, e.g. "/blog"
 repository               : "agarwal-ayushi/agarwal-ayushi.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : #"/assets/images/500x300.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
