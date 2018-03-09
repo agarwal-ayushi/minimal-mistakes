@@ -1,10 +1,9 @@
 ---
-layout: splash
 permalink: /aboutme/
 title: "About Me"
 header:
-  overlay_image : /assets/image/lamps.jpg
-  
+  image: /assets/images/lamps.jpg
+  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 excerpt: "Tech-bits will be publishing new technology advancements in the field of electronics."
 toc: true
 ---
@@ -12,6 +11,20 @@ toc: true
 I am currently working as a Reserach Engineer in the Green-IC lab at the National University of Singapore. I am working on energy-efficient DNN accelerators. 
 
 In the past, I have worked in Qualcomm India Pvt. Ltd. as a Digital Design Engineer. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ---
 
@@ -23,11 +36,18 @@ In the past, I have worked in Qualcomm India Pvt. Ltd. as a Digital Design Engin
 - Neural Networks
 - Compatible with GitHub Pages.
 
+-------
+
 ## Academic Qualifications
+
+I obtained my undergraduate degree in Electronics and Communication Engineering from Motilal Nehru National Institute of Technology, Allahabad. 
 
 ---
 
 ## Credits
+### Theme + Demo Images:
+- [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/)
+- [Unsplash](https://unsplash.com/)
 
 
 ---
