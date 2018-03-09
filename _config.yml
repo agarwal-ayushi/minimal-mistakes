@@ -91,8 +91,8 @@ analytics:
 # Site Author
 author:
   name             : *name # *name is a YAML reference pointing to the &anchor earlier
-  avatar           : #"/assets/images/bio-photo.jpg"  # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am a Reserach Engineer at National University of Singapore. I am working on reconfigurable accelerators for Deep Learning"
+  avatar           : "/assets/images/ayushi.JPG"  # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "I am a Reserach Engineer at National University of Singapore. "
   location         : "Singapore"
   email            :
   uri              :
