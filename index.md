@@ -6,8 +6,9 @@ header:
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 excerpt: 'with Ayushi Agarwal'
 intro:
-  -excerpt: 'Come back if you want to read about my latest projects and get updated on recent developments in the field of AI and Semicondictor Industry'
-author_profile: true
+  - excerpt: 'Come back here if you want to read about my latest projects and get updated on recent developments in the field of AI and Semicondictor Industry'
 
 ---
+
+
 {% include feature_row id="intro" type="center" %}
