@@ -1,5 +1,5 @@
 ---
-layout: splash
+layout: archive
 permalink: /
 header:
   overlay_image: /assets/images/lamps.jpg
