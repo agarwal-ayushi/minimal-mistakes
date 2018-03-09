@@ -1,9 +1,6 @@
 ---
 permalink: /aboutme/
 title: "About Me"
-header:
-  overlay_image : /assets/image/lamps.jpg
-  
 excerpt: "Tech-bits will be publishing new technology advancements in the field of electronics."
 toc: true
 ---
