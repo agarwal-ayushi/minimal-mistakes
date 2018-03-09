@@ -13,6 +13,20 @@ I am currently working as a Reserach Engineer in the Green-IC lab at the Nationa
 
 In the past, I have worked in Qualcomm India Pvt. Ltd. as a Digital Design Engineer. 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ---
 
 ## Research Interests
@@ -23,11 +37,18 @@ In the past, I have worked in Qualcomm India Pvt. Ltd. as a Digital Design Engin
 - Neural Networks
 - Compatible with GitHub Pages.
 
+-------
+
 ## Academic Qualifications
+
+I obtained my undergraduate degree in Electronics and Communication Engineering from Motilal Nehru National Institute of Technology, Allahabad. 
 
 ---
 
 ## Credits
+### Theme + Demo Images:
+- [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/)
+- [Unsplash](https://unsplash.com/)
 
 
 ---
