@@ -150,7 +150,6 @@ exclude:
   - Rakefile
   - README
   - tmp
-  - docs/
   
 keep_files:
   - .git
@@ -199,7 +198,7 @@ kramdown:
 defaults:
   # _posts
   - scope:
-      path: ""
+      path: "_posts"
       type: posts
     values:
       layout: single
@@ -222,7 +221,7 @@ sass:
 
 
 # Outputting
-permalink: /:categories/:title/
+permalink: /:categories/:year/:month/:date/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
 timezone: Asia/Singapore # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
