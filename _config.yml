@@ -11,8 +11,8 @@ minimal_mistakes_skin    : "aqua" # "air", "aqua", "contrast", "dark", "dirt", "
 locale                   : "en-US"
 title                    : "Tech-Bits"
 title_separator          : "-"
-name                     : "Ayushi Agarwal"
-description              : "Reseach Engineer at National University of Singapore"
+name                     : &name "Ayushi Agarwal" # &name is a YAML anchor which can be *referenced later
+description              : &description "Reseach Engineer at National University of Singapore"
 url                      : "https://agarwal-ayushi.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  :  # the subpath of your site, e.g. "/blog"
 repository               : "agarwal-ayushi/agarwal-ayushi.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -90,7 +90,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Ayushi Agarwal"
+  name             : *name # *name is a YAML reference pointing to the &anchor earlier
   avatar           : #"/assets/images/bio-photo.jpg"  # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am a Reserach Engineer at National University of Singapore. I am working on reconfigurable accelerators for Deep Learning"
   location         : "Singapore"
@@ -150,8 +150,6 @@ exclude:
   - Rakefile
   - README
   - tmp
-  - /docs # ignore Minimal Mistakes /docs
-  - /test # ignore Minimal Mistakes /test
 keep_files:
   - .git
   - .svn
@@ -179,6 +177,42 @@ kramdown:
   enable_coderay: false
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: # true
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
 # Sass/SCSS
 sass:
   sass_dir: _sass
@@ -187,8 +221,8 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
-paginate_path: /page:num/
+# paginate: 5 # amount of posts to show
+# paginate_path: /page:num/
 timezone: Asia/Singapore # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
@@ -246,24 +280,4 @@ compress_html:
     envs: development
 
 
-# Defaults
-defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: # true
-      share: true
-      related: true
 
-  # _pages
-  - scope:
-      path: "_pages"
-      type: pages
-    values:
-      layout: single
-      author_profile: true
