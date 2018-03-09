@@ -1,6 +1,9 @@
 ---
 permalink: /aboutme/
 title: "About Me"
+header:
+  image: /assets/images/lamps.jpg
+  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 excerpt: "Tech-bits will be publishing new technology advancements in the field of electronics."
 toc: true
 ---
