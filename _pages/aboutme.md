@@ -1,7 +1,7 @@
 ---
 permalink: /aboutme/
 title: "About Me"
-excerpt: "Tech-bits will be publishing new technology advancements in the field of electronics"
+excerpt: "Tech-bits will be publishing new technology advancements in the field of electronics."
 toc: true
 ---
 
