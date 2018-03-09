@@ -1,5 +1,4 @@
 ---
-layout: splash
 permalink: /aboutme/
 title: "About Me"
 header:
