@@ -2,14 +2,15 @@
 permalink: /aboutme/
 title: "About Me"
 excerpt: "Tech-bits will be publishing new technology advancements in the field of electronics"
-
 toc: true
 ---
-<!-- hello -->
- I am currently working as a Reserach Engineer in the Green-IC lab at the National University s Singapore. I am working on energy-efficient DNN accelerators. 
+
+I am currently working as a Reserach Engineer in the Green-IC lab at the National University of Singapore. I am working on energy-efficient DNN accelerators. 
 
 In the past, I have worked in Qualcomm India Pvt. Ltd. as a Digital Design Engineer. 
- 
+
+---
+
 ## Research Interests
 
 - Computer Architecture
@@ -20,6 +21,7 @@ In the past, I have worked in Qualcomm India Pvt. Ltd. as a Digital Design Engin
 
 ## Academic Qualifications
 
+---
 
 ## Credits
 
