@@ -1,9 +1,6 @@
 ---
 permalink: /aboutme/
 title: "About Me"
-header:
-  overlay_image: /assets/images/lamps.jpg
-  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 excerpt: "About Me"
 toc: true
 ---
