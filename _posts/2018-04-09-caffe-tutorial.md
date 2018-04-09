@@ -22,16 +22,12 @@ It is a C++ based framework with a python frontend. It supports various Deep Lea
 * cuDNN - for GPU acceleration. The version of cuDNN should be chosen according to the compatibility with CUDA.
 
 ### Installing the above packages (UBUNTU)
-1. `sudo apt-get install vim-gnome`
-This installs gvim text editor (if not already present in your system). This can be replaced by any text editor of your choice.
-2. `sudo apt-get install libprotobuf-dev libleveldb-dev libsnappy-dev libopencv-dev libhdf5-serial-dev protobuf-compiler`
-Installs various dependency packages
+1. `sudo apt-get install vim-gnome`  This installs gvim text editor (if not already present in your system). This can be replaced by any text editor of your choice.
+2. `sudo apt-get install libprotobuf-dev libleveldb-dev libsnappy-dev libopencv-dev libhdf5-serial-dev protobuf-compiler`  Installs various dependency packages
 3. `sudo apt-get install --no-install-recommends libboost-all-dev`
 4. `sudo apt-get install libatlas-base-dev `
 5. `sudo apt-get install libgflags-dev libgoogle-glog-dev liblmdb-dev`
-6. Install pip (For Python 2.7 or 3.5)
-`sudo apt-get install python-pip`
-or, Python 3.5 development files
+6. Install pip (For Python 2.7 or 3.5)  `sudo apt-get install python-pip`  or, Python 3.5 development files
 `sudo apt-get install -y python3-dev`
 7. Install numpy and scipy libraries
 `sudo apt-get install -y python3-numpy python3-scipy`
