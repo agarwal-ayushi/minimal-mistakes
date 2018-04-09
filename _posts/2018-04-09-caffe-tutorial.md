@@ -59,7 +59,7 @@ or, Python 3.5 development files
       make runtest
       ```
     - To run on multiple GPU's, compile with `USE_NCCL = 1` (in Makefile.config).
-      - For this, install the NCCL git repository.
+      For this, install the NCCL git repository.
        1. `git clone http://github.com/NVIDIA/nccl.git`
        2. `cd nccl`
        3. `sudo make install –j4`
@@ -68,5 +68,4 @@ or, Python 3.5 development files
 
 ### Some points to be noted
 1. CAFFE needs GCC and G++ version to be more than 5 or 5.2. Doesn’t compile with 4.8 version. 
-To update the GCC version in case needed :  
-[https://askubuntu.com/questions/26498/choose-gcc-and-g-version][GCC version help]
+To update the GCC version in case needed : https://askubuntu.com/questions/26498/choose-gcc-and-g-version
