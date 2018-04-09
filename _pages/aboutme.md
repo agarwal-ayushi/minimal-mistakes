@@ -7,21 +7,7 @@ toc: true
 
 I am currently working as a Reserach Engineer in the Green-IC lab at the National University of Singapore. I am working on energy-efficient DNN accelerators. 
 
-In the past, I have worked in Qualcomm India Pvt. Ltd. as a Digital Design Engineer. 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+In the past, I have worked in Qualcomm India Pvt. Ltd. as a Digital Design Engineer. I have worked on Network On Chip design for SoC chips. 
 
 ---
 
@@ -31,8 +17,8 @@ In the past, I have worked in Qualcomm India Pvt. Ltd. as a Digital Design Engin
 - Network on Chip
 - System Level Design
 - Neural Networks
-- Compatible with GitHub Pages.
-
+- Artificial Intelligence
+- Reinforcement Learning
 -------
 
 ## Academic Qualifications
