@@ -42,31 +42,24 @@ or, Python 3.5 development files
       - `for req in $(cat requirements.txt); do pip install $req; done`
       - You can modify the `requirements.txt` file as per your extra requirements
     - `cd <cloned-repository> `
-    
-        `cp Makefile.config.example Makefile.config`
-        
-        if only CPU is to be used - Uncomment CPU_ONLY 
-        
-        change CUDA directory to /usr/bin/cuda-8.0 for UBUNTU 16.04 (this only points to the current CUDA version to be used) 
-        
-        change Python directory according to 3.5 if you want to use Python 3
-        
-        `+INCLUDE_DIRS := $(PYTHON_INCLUDE) /usr/local/include /usr/include/hdf5/serial/`
-        
-        `+LIBRARY_DIRS := $(PYTHON_LIB) /usr/local/lib /usr/lib /usr/lib/x86_64-linux-gnu/hdf5/serial/`
-    4. For Compilation, run the following set of commands:
-    
-    ```make clean
-    
-     make all
-     
-     make test
-     
-     make runtest
-    ```
-    5. To run on multiple GPU's, compile with `USE_NCCL = 1` (in Makefile.config).
-    
-     For this, install the NCCL git repository.
+    - `cp Makefile.config.example Makefile.config`
+      - if only CPU is to be used - Uncomment CPU_ONLY 
+      - change CUDA directory to /usr/bin/cuda-8.0 for UBUNTU 16.04 (this only points to the current CUDA version to be used)
+      - change Python directory according to 3.5 if you want to use Python 3
+      - Add/modify these lines :
+         ```
+         +INCLUDE_DIRS := $(PYTHON_INCLUDE) /usr/local/include /usr/include/hdf5/serial/
+         +LIBRARY_DIRS := $(PYTHON_LIB) /usr/local/lib /usr/lib /usr/lib/x86_64-linux-gnu/hdf5/serial/
+         ```
+    - For Compilation, run the following set of commands:    
+      ```
+      make clean    
+      make all     
+      make test  
+      make runtest
+      ```
+    - To run on multiple GPU's, compile with `USE_NCCL = 1` (in Makefile.config).
+      - For this, install the NCCL git repository.
        1. `git clone http://github.com/NVIDIA/nccl.git`
        2. `cd nccl`
        3. `sudo make install –j4`
