@@ -19,7 +19,8 @@ In the past, I have worked in Qualcomm India Pvt. Ltd. as a Digital Design Engin
 - Neural Networks
 - Artificial Intelligence
 - Reinforcement Learning
--------
+
+---
 
 ## Academic Qualifications
 
