@@ -21,7 +21,7 @@ sudo apt-get install libatlas-base-dev
 sudo apt-get install libgflags-dev libgoogle-glog-dev liblmdb-dev
 
 sudo apt-get install python-pip
-# (or, Python 3.5 development files)
+or, Python 3.5 development files
 sudo apt-get install -y python3-dev
 sudo apt-get install -y python3-numpy python3-scipy
 git clone https://github.com/BVLC/caffe
