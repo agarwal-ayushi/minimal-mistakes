@@ -36,15 +36,12 @@ or, Python 3.5 development files
 7. Install numpy and scipy libraries
 `sudo apt-get install -y python3-numpy python3-scipy`
 8. For caffe compilation, follow these steps :
-    1. `git clone https://github.com/BVLC/caffe` 
-    
-    - download the github repository 
-    2. `cd </cloned repository/python/>` and execute the following:
-    
-      `for req in $(cat requirements.txt); do pip install $req; done`
-      
-       You can modify the `requirements.txt` file as per your extra requirements
-    3. `cd <cloned-repository> `
+   - `git clone https://github.com/BVLC/caffe` 
+   download the github repository 
+   - `cd </cloned repository/python/>` and execute the following:    
+      - `for req in $(cat requirements.txt); do pip install $req; done`
+      - You can modify the `requirements.txt` file as per your extra requirements
+    - `cd <cloned-repository> `
     
         `cp Makefile.config.example Makefile.config`
         
