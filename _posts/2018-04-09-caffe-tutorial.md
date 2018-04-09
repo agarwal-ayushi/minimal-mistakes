@@ -1,7 +1,7 @@
 ---
 layout: posts
 title: "CAFFE - Framework for Deep Learning"
-date: '2018-04-09 14:18:00 
+date: '2018-04-09 14:18:00'
 categories:
   - Tool Setup
 ---
