@@ -68,4 +68,4 @@ It is a C++ based framework with a python frontend. It supports various Deep Lea
 
 ### Some points to be noted
 1. CAFFE needs GCC and G++ version to be more than 5 or 5.2. Doesn’t compile with 4.8 version. 
-To update the GCC version in case needed : https://askubuntu.com/questions/26498/choose-gcc-and-g-version
+To update the GCC version in case needed : (https://askubuntu.com/questions/26498/choose-gcc-and-g-version)
